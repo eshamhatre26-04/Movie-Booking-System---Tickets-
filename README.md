@@ -271,27 +271,22 @@ movie_booking_system/
 
 **Issue**: `mysql.connector not found`
 ```bash
-# Solution
+
 pip install mysql-connector-python
 ```
 
 **Issue**: `Access denied for user 'root'@'localhost'`
 ```python
-# Solution: Update password in database.py
+
 self.password = "your_actual_mysql_password"
 ```
 
 **Issue**: Database not created
 ```bash
-# Solution: Run these SQL commands manually
 CREATE DATABASE movie_booking_db;
 USE movie_booking_db;
 ```
 
-**Issue**: Sample data not loading
-```python
-# Solution: Run main.py again, it will check and add sample data
-```
 
 ## 📝 Sample Login Credentials
 
@@ -315,21 +310,6 @@ VALUES ('testuser',
 4. Test thoroughly
 5. Submit a pull request
 
-### Code Style
-- Follow PEP 8 guidelines
-- Use meaningful variable names
-- Add comments for complex logic
-- Keep functions focused and small
-
-## 📧 Support
-
-For issues, questions, or suggestions:
-- Create an issue in the repository
-- Contact: your.email@example.com
-
-## 📄 License
-
-This project is created for educational purposes and portfolio demonstration.
 
 ##  Acknowledgments
 
@@ -339,8 +319,7 @@ This project is created for educational purposes and portfolio demonstration.
 
 ---
 
-**Note**: This is a portfolio project demonstrating full-stack development skills with Python, GUI programming, and database management.
 
-**Author**: Your Name  
+**Author**: Esha Mhatre 
 **Date**: January 2026  
 **Version**: 1.0.0
